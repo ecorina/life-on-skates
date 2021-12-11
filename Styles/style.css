@@ -1,0 +1,100 @@
+body {
+  background-color: #c0dde9;
+  margin: 30px auto;
+  padding: 30px;
+  width: 50%;
+}
+div {
+  background-image: radial-gradient(
+    circle at 10% 20%,
+    rgb(253, 101, 133) 0%,
+    rgb(255, 211, 165) 90%
+  );
+  padding: 30px;
+  margin: 50px auto;
+  border-radius: 15px 15px;
+
+  box-shadow: 3px 6px 4px #fe7689;
+}
+h1 {
+  color: #c0dde9;
+  line-height: 14px;
+  text-align: center;
+  font: 40px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 30px 10px;
+  border: 2px solid #c0dde9;
+  border-radius: 10px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 50px 0px;
+  max-width: 100%;
+}
+h2 {
+  color: #c0dde9;
+  text-align: center;
+  font: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 20px 0px;
+}
+h3 {
+  color: #541a8b;
+  font: 23px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+}
+p {
+  color: #ededed;
+  font: 30px;
+}
+
+h4 {
+  color: #541a8b;
+  font: 23px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+}
+.wiki {
+  color: #ededed;
+  font-size: 10px;
+}
+ul {
+  list-style-type: non;
+  text-align: center;
+  padding: 0;
+}
+li {
+  display: inline;
+  margin: 40px;
+  color: #c0dde9;
+  font-size: 20px;
+}
+.changeColor {
+  color: #ffffff;
+}
+.moreInfo {
+  font-size: 22px;
+}
+.history {
+  font-size: 22px;
+}
+button {
+  color: #541a8b;
+  background: #fe6d87;
+  display: block;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  margin: 30px auto;
+  padding: 15px 20px;
+  border: 1px solid #541a8b;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #541a8b;
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  background-color: transparent;
+  color: #541a8b;
+  cursor: pointer;
+}
